@@ -443,7 +443,7 @@ def atur_dulu():
 def passwrd():
 	global prog,des
 	print(f'{bira}─────────────────────────────')
-	prog = Progress(SpinnerColumn('berkah ema'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
+	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id))
 	with prog:
 		with tred(max_workers=30) as gas_krek:
