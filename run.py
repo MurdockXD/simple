@@ -25,21 +25,21 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT 1 ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android'
-	b=random.choice(['7.0','8.1.0','9','10','11','12'])
-	c='Infinix X5516B Build/PPR1.180610.011; wv)'
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['6.0.1','7.1.1','8.1.0'])
+	c='SM-N920G Build/MMB29K)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 OPR/58.0.2254.58441'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	usragent.append(uakuh)
 	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6.0.1','7.1.1','8.1.0'])
-	c='MURDOK-ID Build/MMB29K)'
+	c='MURDOCK-ID Build/MMB29K)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
 	e=random.randrange(83,103)
 	f='0'
@@ -51,27 +51,27 @@ for agenku in range(10000):
 
 ###----------[ USER AGENT 2 ]----------###
 for agenkuw in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android'
-	b=random.choice(['8.1.0','9','10','11','12'])
-	c='en-us; Infinix X653 Build/PPR1.180610.011)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 PHX/12.2'
-	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	usrgent2.append(uakuh)
-	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
-	c='CPH2089'
+	c='M2006C3MG)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Safari/537.36'
+	i='Mobile Safari/537.36'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8.1.0','9','10','11','12'])
+	c='M2006C3LI)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	usrgent2.append(uakuh)
 	
@@ -108,7 +108,7 @@ def banner():
 {bira} ██╔██╗   ╚██╔╝  ██║██║╚██╗██║██║     ██║   ██║██║  ██║██╔══╝  
 {bira}██╔╝ ██╗   ██║   ██║██║ ╚████║╚██████╗╚██████╔╝██████╔╝███████╗
 {bira}╚═╝  ╚═╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
-{kun}Author by Basari-ID  {puti}---   {kun}Recode by Murock-XD                                                               
+{kun}Author by BASARI-ID  {puti}---   {kun}Recode by MURDOCK-XD                                                               
 simpel crack brute force''')
 
 ###----------[ CEK COKIS TOKEN ]----------###
