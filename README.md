@@ -3,6 +3,7 @@ Crack FB simple
 
 <h1 align="center">Hi 👋, I'm Murdock-ID</h1>
 
+##KASIH BINTANG WOY🗿🗿🗿
 
 install
 
@@ -17,10 +18,12 @@ $pkg install requests
 
 $pip install stdiomask
 
-$git clone https://github.com/MurdockXD/Brute-Code
+$git clone https://github.com/MurdockXD/simple
 
 $cd Brute-Code
 
-$git pull
 
-$python brute.py
+$python run.py
+
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Selamat+Bersenang-senang....!+)
