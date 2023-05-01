@@ -4,7 +4,6 @@ Crack FB simple
 <h1 align="center">Hi 👋, I'm Murdock-ID</h1>
 
 ## KASIH BINTANG WOY 🌟
-<h3 align="left">Languages and Tools:</h3>
 
 
 install
